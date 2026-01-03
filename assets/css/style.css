@@ -1,6 +1,6 @@
 /* Variáveis para padronização */
 :root {
-    --primary-color: #FF637E; 
+    --primary-color: #D61E3F; 
     --secondary-color: #FFF1F2; 
     --text-dark: #333;
     --text-light: #555;
@@ -23,6 +23,24 @@ body {
     line-height: 1.6;
 }
 
+.skip-link {
+    position: absolute;
+    top: -40px; 
+    left: 0;
+    background-color: #FF4F6E; 
+    color: #FFF;
+    padding: 8px 16px;
+    z-index: 100;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: top 0.3s;
+}
+
+.skip-link:focus {
+    top: 10px; 
+}
+
 h2 {
     font-size: 1.5em;
     margin-bottom: 20px;
@@ -37,7 +55,7 @@ h2 {
 
 .symbol {
     font-weight: 500;
-    color: #FFA1AD;
+    color: var(--primary-color);
 }
 
 .bnt {
