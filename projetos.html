@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projetos | Meu Portfólio</title>
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/projetos.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/img/favicon.ico">
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="container header-nav" aria-label="Navegação principal">
+            <a href="./index.html" class="logo">
+                <span class="symbol" aria-hidden="true">&lt;/&gt;</span>
+                <strong class="text">Meu Portfólio</strong>
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="./index.html">Início</a></li>
+                <li><a href="./perfil.html">Perfil</a></li>
+                <li><a href="./projetos.html" class="active" aria-current="page">Projetos</a></li>
+            </ul>
+
+            <button class="menu-toggle" aria-label="Abrir menu de navegação">
+                <i class="fas fa-bars" aria-hidden="true"></i>
+            </button>
+        </nav>
+    </header>
+
+    <main id="conteudo-principal">
+
+        <section class="projects-section" aria-labelledby="titulo-projetos">
+            <article class="container projects-card">
+
+                <figure class="projects-image">
+                    <img src="./assets/img/icon_projetos.svg" alt="Ilustração de Rebeca Cerqueira codificando">
+                </figure>
+
+                <header>
+                    <h1 id="titulo-projetos">Meus Projetos</h1>
+                    <p class="projects-role">
+                        Uma seleção dos projetos que desenvolvi, demonstrando minhas habilidades em
+                        front-end, design e resolução de problemas.
+                    </p>
+                </header>
+
+                <nav class="projects-socials" aria-label="Links externos do portfólio">
+                    <a href="https://github.com/Rebeca-Soares" class="social-btn github-projects" target="_blank"
+                        rel="noopener noreferrer">
+                        <i class="fab fa-github" aria-hidden="true"></i>
+                        <span>GitHub</span>
+                    </a>
+                </nav>
+
+            </article>
+        </section>
+
+        <section class="projects-section" aria-labelledby="lista-projetos">
+            <h2 id="lista-projetos" class="sr-only">Lista de projetos desenvolvidos</h2>
+
+            <ul class="projects-grid">
+                <li class="project-card">
+                    <article>
+                        <figure>
+                            <img src="./assets/img/sinergIA.png" alt="Tela do projeto SinergIA" class="project-image">
+                            <figcaption>
+                                <h3 class="project-title">SinergIA</h3>
+                                <p class="project-description">
+                                    Plataforma desenvolvida para ajudar profissionais iniciantes na jornada de ingresso
+                                    no mercado de trabalho.
+                                </p>
+                                <ul class="project-tags" aria-label="Tecnologias utilizadas">
+                                    <li class="project-tag">React</li>
+                                    <li class="project-tag">TypeScript</li>
+                                    <li class="project-tag">Bootstrap</li>
+                                </ul>
+                                <hr>
+                                <nav class="project-links" aria-label="Links do projeto SinergIA">
+                                    <a href="https://github.com/fiap-webdesign/global-solution-sinergia" target="_blank"
+                                        class="bnt-projects primary">Código</a>
+                                    <a href="https://global-solution-sinergia.vercel.app" target="_blank"
+                                        class="bnt-projects outline">Ver Site</a>
+                                </nav>
+                            </figcaption>
+                        </figure>
+                    </article>
+                </li>
+
+                <li class="project-card">
+                    <article>
+                        <figure>
+                            <img src="./assets/img/clarion.png" alt="Tela do projeto Clarion" class="project-image">
+                            <figcaption>
+                                <h3 class="project-title">Clarion</h3>
+                                <p class="project-description">
+                                    Plataforma pensada para pessoas com deficiência visual praticarem esportes com
+                                    autonomia.
+                                </p>
+                                <ul class="project-tags">
+                                    <li class="project-tag">HTML5</li>
+                                    <li class="project-tag">JavaScript</li>
+                                    <li class="project-tag">Bootstrap</li>
+                                </ul>
+                                <hr>
+                                <nav class="project-links" aria-label="Links do projeto Clarion">
+                                    <a href="https://github.com/fiap-webdesign/enterprise-challenge-clarion"
+                                        target="_blank" class="bnt-projects primary">Código</a>
+                                    <a href="https://fiap-webdesign.github.io/enterprise-challenge-clarion/index.html"
+                                        target="_blank" class="bnt-projects outline">Ver Site</a>
+                                </nav>
+                            </figcaption>
+                        </figure>
+                    </article>
+                </li>
+
+                <li class="project-card">
+                    <article>
+                        <figure>
+                            <img src="./assets/img/iaraGames.png" alt="Tela do projeto IaraGames" class="project-image">
+                            <figcaption>
+                                <h3 class="project-title">IaraGames</h3>
+                                <p class="project-description">
+                                    Loja de jogos online brasileiros após atualização da identidade visual.
+                                </p>
+                                <ul class="project-tags">
+                                    <li class="project-tag">HTML</li>
+                                    <li class="project-tag">CSS</li>
+                                    <li class="project-tag">Bootstrap</li>
+                                    <li class="project-tag">JavaScript</li>
+                                </ul>
+                                <hr>
+                                <nav class="project-links">
+                                    <a href="https://github.com/web-design-on/projetosgrupo/tree/main/iaragames"
+                                        target="_blank" class="bnt-projects primary">Código</a>
+                                    <a href="https://web-design-on.github.io/projetosgrupo/iaragames/" target="_blank"
+                                        class="bnt-projects outline">Ver Site</a>
+                                </nav>
+                            </figcaption>
+                        </figure>
+                    </article>
+                </li>
+
+                <li class="project-card">
+                    <article>
+                        <figure>
+                            <img src="./assets/img/Nexo.png" alt="Tela do projeto Comunidade Nexo"
+                                class="project-image">
+                            <figcaption>
+                                <h3 class="project-title">Comunidade Nexo</h3>
+                                <p class="project-description">
+                                    Site desenvolvido para ajudar pessoas em situações de emergência.
+                                </p>
+                                <ul class="project-tags">
+                                    <li class="project-tag">HTML5</li>
+                                    <li class="project-tag">JavaScript</li>
+                                    <li class="project-tag">Bootstrap</li>
+                                </ul>
+                                <hr>
+                                <nav class="project-links">
+                                    <a href="https://github.com/web-design-on/projetosgrupo/tree/main/globalsolutions"
+                                        target="_blank" class="bnt-projects primary">Código</a>
+                                    <a href="https://web-design-on.github.io/projetosgrupo/globalsolutions/index.html"
+                                        target="_blank" class="bnt-projects outline">Ver Site</a>
+                                </nav>
+                            </figcaption>
+                        </figure>
+                    </article>
+                </li>
+
+                <li class="project-card">
+                    <article>
+                        <figure>
+                            <img src="./assets/img/Iaragame_first.png" alt="Tela do primeiro projeto Iara Games"
+                                class="project-image">
+                            <figcaption>
+                                <h3 class="project-title">IaraGames — Primeira versão</h3>
+                                <p class="project-description">
+                                    Primeiro projeto da loja de jogos online brasileiros Iara Games.
+                                </p>
+                                <ul class="project-tags">
+                                    <li class="project-tag">HTML5</li>
+                                    <li class="project-tag">CSS</li>
+                                    <li class="project-tag">JavaScript</li>
+                                </ul>
+                                <hr>
+                                <nav class="project-links">
+                                    <a href="https://github.com/web-design-on/projetosgrupo/tree/main/iaragames-old"
+                                        target="_blank" class="bnt-projects primary">Código</a>
+                                    <a href="https://web-design-on.github.io/projetosgrupo/iaragames-old/"
+                                        target="_blank" class="bnt-projects outline">Ver Site</a>
+                                </nav>
+                            </figcaption>
+                        </figure>
+                    </article>
+                </li>
+
+
+                <li class="project-card">
+                    <article>
+                        <figure>
+                            <img src="./assets/img/pagina_pessoal.png"
+                                alt="Tela da primeira página pessoal desenvolvida" class="project-image">
+                            <figcaption>
+                                <h3 class="project-title">Primeira Página Pessoal</h3>
+                                <p class="project-description">
+                                    Minha primeira página criada ao iniciar o curso de Web Design.
+                                </p>
+                                <ul class="project-tags">
+                                    <li class="project-tag">HTML5</li>
+                                    <li class="project-tag">CSS</li>
+                                </ul>
+                                <hr>
+                                <nav class="project-links">
+                                    <a href="#" class="bnt-projects primary">Código</a>
+                                    <a href="#" class="bnt-projects outline">Ver Site</a>
+                                </nav>
+                            </figcaption>
+                        </figure>
+                    </article>
+                </li>
+
+            </ul>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+
+            <div class="footer-logo">
+                <span class="symbol" aria-hidden="true">&lt;/&gt;</span>
+                <strong class="text">Meu Portfólio</strong>
+            </div>
+
+            <nav class="footer-nav" aria-label="Navegação do rodapé">
+                <h2 class="footer-title">Navegação</h2>
+                <ul>
+                    <li><a href="./index.html" class="footer-link">Início</a></li>
+                    <li><a href="./perfil.html" class="footer-link">Perfil</a></li>
+                    <li><a href="./projetos.html" class="footer-link">Projetos</a></li>
+                </ul>
+            </nav>
+
+            <section class="footer-social">
+                <h2 class="footer-title">Redes Sociais</h2>
+                <nav class="socials-links" aria-label="Redes sociais">
+                    <a href="https://www.linkedin.com/in/rebeca-soares-7ab07218a/" class="linkedin-footer"
+                        aria-label="LinkedIn">
+                        <i class="fab fa-linkedin" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://github.com/Rebeca-Soares" class="github-footer" aria-label="GitHub">
+                        <i class="fab fa-github" aria-hidden="true"></i>
+                    </a>
+                </nav>
+            </section>
+
+        </div>
+
+        <div class="footer-bottom">
+            <small>© 2025 Desenvolvido por Rebeca — Todos os direitos reservados.</small>
+        </div>
+    </footer>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,87 @@
+/* Variáveis para padronização */
+:root {
+    --primary-color: #FF637E; 
+    --secondary-color: #FFF1F2; 
+    --text-dark: #333;
+    --text-light: #555;
+    --bg-light: #FAFAFA;
+    --bg-surface: #FFFFFF;
+    --border-color: #E5E5E5;
+    --font-sans: 'Inter', sans-serif; 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-sans);
+    color: var(--text-dark);
+    background-color: var(--bg-light);
+    line-height: 1.6;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: var(--text-dark);
+}
+
+.container {
+    width: 90%;
+    max-width: 100%;
+    margin: auto;
+}
+
+.symbol {
+    font-weight: 500;
+    color: #FFA1AD;
+}
+
+.bnt {
+    padding: 14px 24px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.bnt.primary {
+    background: var(--primary-color);
+    color: var(--bg-light);
+}
+
+.bnt.outline {
+    border: 1px solid var(--border-color);
+    color: var(--text-dark);
+    background-color: var(--bg-surface);
+}
+
+
+
+.card {
+    border: 1px solid var(--border-color);
+    padding: 32px;
+    border-radius: 16px;
+    background-color: var(--bg-surface);
+    text-align: left;
+}
+
+
+.tag {
+    display: inline-block;
+    color: var(--primary-color);
+    background: var(--secondary-color);
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    margin-right: 8px;
+    margin-top: 15px;
+}
+
+hr {
+    color: #5555552b;
+    margin: 24px 0;
+}
+

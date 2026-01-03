@@ -1,0 +1,188 @@
+
+.profile-section {
+    max-width: 800px;
+    margin: 80px auto 40px;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.profile-image {
+    padding: 20px;
+}
+
+.profile-image img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+}
+
+.profile-card h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.profile-role {
+    display: inline-block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+.profile-socials {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.social-btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: background-color 0.3s;
+    text-decoration: none;
+}
+
+.social-btn i {
+    margin-right: 8px;
+}
+
+.linkedin-perfil {
+    background-color: #e0f2f1;
+    color: #0077b5;
+}
+
+.github-perfil {
+    background-color: var(--secondary-color);
+    color: var(--text-dark);
+}
+
+.profile-contacts {
+    color: var(--text-light);
+    font-size: 0.9rem;
+    font-style: normal;
+}
+
+.profile-contacts p {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.profile-contacts i {
+    margin-right: 5px;
+    color: var(--primary-color);
+}
+
+.main-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px 40px;
+}
+
+.main-content h2 {
+    font-weight: 400;
+}
+
+.about-me {
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.about-me p {
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.section-title i {
+    color: var(--primary-color);
+    margin-right: 15px;
+}
+
+.education-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.card-education {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+}
+
+.card-education h3 {
+    font-size: 1rem;
+}
+
+.certifications-section h2 i {
+    color: #C27AFF;
+    margin-right: 10px;
+}
+
+.certifications-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.card-certifications {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.card-certifications .issuer-year {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #737373;
+}
+
+.skills-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill-tag {
+    padding: 8px 15px;
+    border: 1px solid #ddd;
+    color: var(--text-dark);
+    border-radius: 5px;
+    font-size: 0.9em;
+    background-color: #FFF1F2;
+}
+
+.skill-tag:hover {
+    background-color: #e0e0e0;
+}
+
+@media (max-width: 800px) {
+    .card-education {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    .card-education h3,
+    .card-education .institution,
+    .card-education .period {
+        width: 100%;
+    }
+
+    .card-education .tag {
+        width: auto;
+        align-self: flex-start;
+    }
+
+    .certifications-grid {
+        grid-template-columns: 1fr;
+    }
+}

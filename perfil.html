@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil | Meu Portfólio</title>
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/perfil.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/img/favicon.ico">
+</head>
+<body>
+
+    <header class="header">
+        <div class="header-content">
+            <nav class="container header-nav">
+                <a href="./index.html" class="logo" style="text-decoration: none; color: inherit;">
+                    <span class="symbol" aria-hidden="true">&lt;/&gt;</span>
+                    <strong class="text">Meu Portfólio</strong>
+                </a>
+                
+                <ul class="nav-links">
+                    <li><a href="./index.html" >Início</a></li>
+                    <li><a href="./perfil.html" class="active">Perfil</a></li>
+                    <li><a href="./projetos.html">Projetos</a></li>
+                </ul>
+                <button class="menu-toggle" aria-label="Abrir menu">
+                    <i class="fas fa-bars"></i>
+                </button>  
+            </nav>          
+        </div>
+    </header>
+
+    <main>
+        <section class="profile-section">
+            <div class="container">
+                <article class="profile-card">
+                    <figure class="profile-image">
+                        <img src="./assets/img/Women Web Developer with laptop.svg" alt="Ilustração de Rebeca Cerqueira codificando">
+                    </figure>
+
+                    <h1>Rebeca Cerqueira</h1>
+                    <p class="profile-role">Desenvolvedora Front-end & Web Designer</p>
+
+                    <nav class="profile-socials" aria-label="Redes sociais do perfil">
+                        <a href="https://www.linkedin.com/in/rebeca-soares-7ab07218a/" class="social-btn linkedin-perfil" target="_blank">
+                            <i class="fab fa-linkedin"></i> LinkedIn
+                        </a>
+                        <a href="https://github.com/Rebeca-Soares" class="social-btn github-perfil" target="_blank">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                    </nav>
+
+                    <address class="profile-contacts">
+                        <p><i class="bi bi-envelope"></i> rebecasoaresc.eng@gmail.com</p>
+                        <p><i class="bi bi-geo-alt"></i> Lisboa, PT</p>
+                    </address>
+                </article>
+            </div>
+        </section>
+
+        <div class="container main-content">
+            <section class="card about-me">
+                <h2>Sobre Mim</h2>
+                <p>Estudante de Web Design apaixonada por criar experiências digitais que combinam design atraente com funcionalidade robusta...</p>
+                <p>Meu objetivo é desenvolver soluções web que sejam acessíveis, responsivas e tragam a melhor experiência possível.</p>
+            </section>
+
+            <section class="education-section">
+                <h2 class="section-title"><i class="bi bi-mortarboard"></i> Formação Acadêmica</h2>
+                <div class="education-grid">
+                    <article class="card card-education">
+                        <h3>Tecnóloga - Web Design</h3>
+                        <p class="institution">FIAP</p>
+                        <p class="period">2025 - 2027</p>
+                        <span class="tag">Em andamento</span>
+                    </article>
+
+                    <article class="card card-education">
+                        <h3>Graduação em Engenharia Civil</h3>
+                        <p class="institution">Unicap PE</p>
+                        <p class="period">2013 - 2019</p>
+                        <span class="tag">Concluído</span>
+                    </article>
+                </div>
+            </section>
+
+            <section class="certifications-section">
+                <h2><i class="fas fa-award"></i> Cursos e Certificações</h2>
+                <div class="certifications-grid">
+                    <article class="card card-certifications">
+                        <p class="course-name">React</p>
+                        <div class="issuer-year">
+                            <p class="issuer">Alura</p>
+                            <span class="year">2025</span>
+                        </div>
+                    </article>                    
+                    <article class="card card-certifications">
+                        <p class="course-name">Lógica de Programação</p>
+                        <div class="issuer-year">
+                            <p class="issuer">Alura</p>
+                            <span class="year">2024</span>
+                        </div>
+                    </article>
+                    <article class="card card-certifications">
+                        <p class="course-name">JavaScript</p>
+                        <div class="issuer-year">
+                            <p class="issuer">Alura</p>
+                            <span class="year">2025</span>
+                        </div>
+                    </article>
+                    <article class="card card-certifications">
+                        <p class="course-name">AutoCAD</p>
+                        <div class="issuer-year">
+                            <p class="issuer">SENAC PE</p>
+                            <span class="year">2021</span>
+                        </div>
+                    </article>
+                    
+                    </div>
+            </section>
+
+            <section class="skills-section">
+                <h2>Habilidades</h2>
+                <div class="card skills-tags">
+                    <span class="skill-tag">HTML5</span>
+                    <span class="skill-tag">CSS</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">React</span>
+                    <span class="skill-tag">Figma</span>
+                    <span class="skill-tag">Git</span>
+                    <span class="skill-tag">Responsive Design</span>
+                    <span class="skill-tag">UI/UX</span>
+                    <span class="skill-tag">NextJS</span>
+                    <span class="skill-tag">NodeJS</span>
+                    <span class="skill-tag">Python</span>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-logo">
+                <span class="symbol" aria-hidden="true">&lt;/&gt;</span>
+                <strong class="text">Meu Portfólio</strong>
+            </div>
+
+            <nav class="footer-nav">
+                <h4 class="footer-title">Navegação</h4>
+                <ul>
+                    <li><a href="./index.html" class="footer-link">Inicio</a></li>
+                    <li><a href="./perfil.html" class="footer-link">Perfil</a></li>
+                    <li><a href="./projetos.html" class="footer-link">Projetos</a></li>
+                </ul>
+            </nav>
+
+            <section class="footer-social">
+                <h4 class="footer-title">Redes Sociais</h4>
+                <nav class="socials-links">
+                    <a href="https://www.linkedin.com/in/rebeca-soares-7ab07218a/" class="linkedin-footer" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/Rebeca-Soares" class="github-footer" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </nav>
+            </section>
+        </div>
+        <div class="footer-bottom">
+            <small>© 2025 Desenvolvido por Rebeca — Todos os direitos reservados.</small>
+        </div>
+    </footer>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>

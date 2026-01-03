@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Meu Portfólio</title>
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/inicio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="container header-nav" aria-label="Navegação principal">
+            <a href="./index.html" class="logo">
+                <span class="symbol" aria-hidden="true">&lt;/&gt;</span>
+                <strong class="text">Meu Portfólio</strong>
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="./index.html" class="active" aria-current="page">Início</a></li>
+                <li><a href="./perfil.html">Perfil</a></li>
+                <li><a href="./projetos.html">Projetos</a></li>
+            </ul>
+
+            <button class="menu-toggle" aria-label="Abrir menu de navegação">
+                <i class="fas fa-bars" aria-hidden="true"></i>
+            </button>
+        </nav>
+    </header>
+
+    <main id="conteudo-principal">
+        <section class="hero-section">
+            <div class="container hero-wrapper">
+
+                <figure class="hero-img">
+                    <img src="./assets/img/icone_banner.svg" class="hero-imagem"
+                        alt="Ilustração representando desenvolvimento front-end">
+                </figure>
+
+                <div class="hero-content">
+                    <span class="badge">✨ Desenvolvedor Front-end</span>
+
+                    <h1>Criando experiências digitais modernas e funcionais</h1>
+
+                    <p>
+                        Com o objetivo de transformar ideias em interfaces web atraentes e responsivas,
+                        com foco em design limpo e código de qualidade.
+                    </p>
+
+                    <nav class="hero-buttons" aria-label="Ações principais">
+                        <a href="./projetos.html" class="bnt primary">Ver Projetos</a>
+                        <a href="./perfil.html" class="bnt outline">Sobre mim</a>
+                    </nav>
+                </div>
+
+            </div>
+        </section>
+
+
+        <section class="section container" aria-labelledby="como-ajudar">
+            <h2 id="como-ajudar" class="section-title">Como Posso Ajudar</h2>
+
+            <div class="cards-grid">
+
+                <article class="card">
+                    <div class="card-icone webdesign" aria-hidden="true">
+                        <i class="bi bi-palette"></i>
+                    </div>
+                    <h3 class="card-title">Web Design</h3>
+                    <p class="card-description">
+                        Criação de interfaces visuais atraentes e funcionais, focando na experiência
+                        do usuário e identidade visual.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <div class="card-icone front" aria-hidden="true">
+                        <i class="bi bi-code-slash"></i>
+                    </div>
+                    <h3 class="card-title">Front-end</h3>
+                    <p class="card-description">
+                        Desenvolvimento de aplicações web interativas usando HTML, CSS, JavaScript e
+                        frameworks modernos como React.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <div class="card-icone ui-ux" aria-hidden="true">
+                        <i class="bi bi-layers"></i>
+                    </div>
+                    <h3 class="card-title">UI/UX</h3>
+                    <p class="card-description">
+                        Design de experiências intuitivas e agradáveis, com foco em usabilidade e
+                        acessibilidade.
+                    </p>
+                </article>
+
+            </div>
+        </section>
+
+        <section class="section container" aria-labelledby="projetos-destaque">
+            <header class="section-header">
+                <h2 id="projetos-destaque" class="section-title">Projetos em Destaque</h2>
+                <a href="./projetos.html" class="bnt-link">Ver todos →</a>
+            </header>
+
+            <div class="cards-grid">
+
+                <article class="card">
+                    <figure>
+                        <img src="./assets/img/sinergIA.png" alt="Tela do projeto SinergIA">
+                    </figure>
+                    <h3 class="card-title">SinergIA</h3>
+                    <p class="card-description">
+                        Plataforma para ajudar profissionais iniciantes na jornada de ingresso no mercado de trabalho.
+                    </p>
+                    <ul class="card-tags" aria-label="Tecnologias utilizadas">
+                        <li class="tag">React</li>
+                        <li class="tag">TypeScript</li>
+                        <li class="tag">Bootstrap</li>
+                    </ul>
+                </article>
+
+                <article class="card">
+                    <figure>
+                        <img src="./assets/img/clarion.png" alt="Tela do projeto Clarion">
+                    </figure>
+                    <h3 class="card-title">Clarion</h3>
+                    <p class="card-description">
+                        Plataforma para pessoas com deficiência visual praticarem esportes com autonomia e segurança.
+                    </p>
+                    <ul class="card-tags">
+                        <li class="tag">JavaScript</li>
+                        <li class="tag">TypeScript</li>
+                        <li class="tag">Bootstrap</li>
+                    </ul>
+                </article>
+
+                <article class="card">
+                    <figure>
+                        <img src="./assets/img/iaraGames.png" alt="Tela do projeto IaraGames">
+                    </figure>
+                    <h3 class="card-title">IaraGames</h3>
+                    <p class="card-description">
+                        Loja virtual de venda de jogos brasileiros.
+                    </p>
+                    <ul class="card-tags">
+                        <li class="tag">HTML</li>
+                        <li class="tag">CSS</li>
+                        <li class="tag">Bootstrap</li>
+                    </ul>
+                </article>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+
+            <div class="footer-logo">
+                <span class="symbol" aria-hidden="true">&lt;/&gt;</span>
+                <strong class="text">Meu Portfólio</strong>
+            </div>
+
+            <nav class="footer-nav" aria-label="Navegação do rodapé">
+                <h2 class="footer-title">Navegação</h2>
+                <ul>
+                    <li><a href="./index.html" class="footer-link">Início</a></li>
+                    <li><a href="./perfil.html" class="footer-link">Perfil</a></li>
+                    <li><a href="./projetos.html" class="footer-link">Projetos</a></li>
+                </ul>
+            </nav>
+
+            <section class="footer-social">
+                <h2 class="footer-title">Redes Sociais</h2>
+                <nav class="socials-links" aria-label="Redes sociais">
+                    <a href="https://www.linkedin.com/in/rebeca-soares-7ab07218a/" class="linkedin-footer"
+                        aria-label="LinkedIn">
+                        <i class="fab fa-linkedin" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://github.com/Rebeca-Soares" class="github-footer" aria-label="GitHub">
+                        <i class="fab fa-github" aria-hidden="true"></i>
+                    </a>
+                </nav>
+            </section>
+
+        </div>
+
+        <div class="footer-bottom">
+            <small>© 2025 Desenvolvido por Rebeca — Todos os direitos reservados.</small>
+        </div>
+    </footer>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
