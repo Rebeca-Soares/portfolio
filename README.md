@@ -1,38 +1,60 @@
-# Meu Portfólio — Rebeca Cerqueira
+#👩‍💻 Portfólio — Rebeca Cerqueira
+Portfólio pessoal de Rebeca Cerqueira, Desenvolvedora Front-end & Web Designer, criado para apresentar projetos, habilidades e experiências profissionais de forma moderna, responsiva e acessível.
 
-# Sobre o Projeto:
+#📌 Visão Geral
+Este projeto reúne meus principais trabalhos e informações profissionais, com foco em usabilidade, design moderno e boas práticas de desenvolvimento front-end.
+O site foi desenvolvido utilizando HTML, CSS e JavaScript, garantindo compatibilidade entre diferentes dispositivos e navegadores.
 
-Portfólio pessoal de Rebeca Cerqueira, desenvolvedora Front-end & Web Designer.
+#🧭 Estrutura do Projeto
 
-# O site apresenta:
+🏠 Página Inicial
+Banner principal com imagem e texto configuráveis
+Apresentação dos serviços
+Projetos em destaque
+👤 Perfil
+Sobre mim
+Formação acadêmica
+Certificações
+Contatos e redes sociais
+Habilidades técnicas
+💼 Projetos
+Grid responsivo de projetos
+Descrição objetiva
+Tecnologias utilizadas
+Links para repositórios e demonstrações
+⚙️ Funcionalidades
+Header fixo com navegação intuitiva
+Menu mobile responsivo
+Banner inicial adaptável
+Cards de serviços:
+Web Design
+Desenvolvimento Front-end
+UI/UX Design
+Projetos em destaque com imagens e tags
+Perfil completo com foto e redes sociais
+Seção de habilidades com tags interativas
+Layout totalmente responsivo (mobile e desktop)
 
-Página Inicial: Banner, serviços e projetos em destaque.
-Perfil: Sobre mim, formação, certificações, contatos e habilidades.
-Projetos: Grid de projetos com descrição, tecnologias e links.
-O design é moderno, responsivo e acessível, usando HTML, CSS e JS.
+#♿ Acessibilidade
+O projeto segue boas práticas de acessibilidade, incluindo:
+Foco visível em elementos interativos
+Uso adequado de aria-labels
+Estrutura semântica correta em HTML
 
-# Funcionalidades:
-Header fixo com navegação e menu mobile.
-Banner inicial com imagem e texto ajustável.
-Cards de serviços: Web Design, Front-end e UI/UX.
-Projetos em destaque com tags e imagens.
-Perfil completo: foto, redes sociais, contatos, formação e certificações.
-Seção de habilidades com tags interativas.
-Totalmente responsivo em dispositivos móveis e desktops.
-
-Acessibilidade: foco visível em botões, aria-labels e semântica correta.
-
-# Tecnologias Utilizadas:
-HTML5, CSS3 (Flexbox & Grid)
+#🛠️ Tecnologias Utilizadas
+HTML5
+CSS3 (Flexbox & Grid)
 JavaScript (menu mobile)
-Font Awesome & Bootstrap Icons
-Responsividade com Media Queries
+Font Awesome
+Bootstrap Icons
+Media Queries para responsividade
 
-# Contato:
-LinkedIn
-GitHub
-Email: rebecasoaresc.eng@gmail.com
-Localização: Lisboa, Portugal
+#📬 Contato
+💼 LinkedIn
+🐙 GitHub
+✉️ Email: rebecasoaresc.eng@gmail.com
+📍 Localização: Lisboa, Portugal
 
-# Licença:
-© 2025 Desenvolvido por Rebeca Cerqueira — Todos os direitos reservados.
+#📄 Licença
+© 2025 — Desenvolvido por Rebeca Cerqueira
+Todos os direitos reservados.
