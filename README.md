@@ -4,9 +4,9 @@ Portfólio pessoal de Rebeca Cerqueira, Desenvolvedora Front-end & Web Designer,
 ---
 ## 📌 Informações do Projeto
 
-- **Nome do autor:** Rebeca Cerqueira  
-- **Links:** - 💼[ [[GitHub Pages]((https://github.com/Rebeca-Soares/portfolio)](https://github.com/Rebeca-Soares/portfolio))]
-- 🐙 [GitHub]((https://github.com/Rebeca-Soares/portfolio)](https://github.com/Rebeca-Soares/portfolio))
+- **Links:**
+- 💼 GitHub Pages: https://rebeca-soares.github.io/portfolio/
+- 🐙 GitHub: https://github.com/Rebeca-Soares/portfolio
 
 ---
 
